@@ -1,4 +1,8 @@
-streamlit==1.47.0
-opencv-python==4.13.0.90
-ultralytics==8.4.11
+streamlit==1.26.0
+opencv-python==4.7.0.72
+ultralytics==8.0.142
 numpy==1.26.4
+rich==14.3.2
+markdown-it-py==4.0.0
+mdurl==0.1.2
+pygments==2.19.2
