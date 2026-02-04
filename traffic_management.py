@@ -12,9 +12,6 @@ st.set_page_config(
     layout="wide"
 )
 
-# Allow large uploads (e.g., 1 GB)
-st.set_option('server.maxUploadSize', 1024)  # in MB
-
 # Initialize session state
 if "processing_done" not in st.session_state:
     st.session_state.processing_done = False
